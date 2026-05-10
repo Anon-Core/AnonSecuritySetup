@@ -1,0 +1,2 @@
+- git clone https://github.com/digininja/DVWA.git
+- wget https://raw.githubusercontent.com/IamCarron/DVWA-Script/main/Install-DVWA.sh
