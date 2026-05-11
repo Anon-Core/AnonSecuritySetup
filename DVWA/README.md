@@ -1,2 +1,2 @@
 - git clone https://github.com/digininja/DVWA.git
-- wget https://raw.githubusercontent.com/IamCarron/DVWA-Script/main/Install-DVWA.sh
+- wget curl -O https://raw.githubusercontent.com/Anon-Core/AnonSecuritySetup/main/DVWA/dvwa.sh
