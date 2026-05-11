@@ -1,1 +1,1 @@
-curl -O https://raw.githubusercontent.com/Anon-Core/AnonSecuritySetup/main/WebServer/setup.sh
+- curl -O https://raw.githubusercontent.com/Anon-Core/AnonSecuritySetup/main/WebServer/setup.sh
