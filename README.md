@@ -1,93 +1,78 @@
 <div align="center">
 
-# AnonSecuritySetup
+# 🔐 AnonSecuritySetup
 
-**Web Security & Hacking Fundamentals - Environment Setup & Automation Tools**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Bash](https://img.shields.io/badge/Bash-4.0+-4EAA25?style=flat&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Platform](https://img.shields.io/badge/Platform-Debian%20%7C%20Ubuntu-orange)](https://www.debian.org/)
+### Web Security & Hacking Fundamentals Course
 
 ---
-
-[English](README.md) | [فارسی](README-fa.md)
 
 </div>
 
-## 📋 About
+## About This Repository
 
-This repository contains a collection of **automated setup scripts** and tools developed for the **Web Security & Hacking Fundamentals** course. Created for educational practice, learning, and portfolio building.
-
-All scripts are designed to streamline environment setup for security testing and web application vulnerability research.
+This repository contains **setup scripts** and **automation tools** for the **Web Security & Hacking Fundamentals** course. Created for **practice**, **learning**, and **portfolio building**, it includes environment configurations and security testing tools.
 
 ---
 
-## 🛠️ Tools & Scripts
+## 🛠️ Available Tools
 
-### 1. **WebServer Setup**
-Automated Nginx installation and configuration script for Debian/Ubuntu systems.
+### 1. [WebServer Setup](./WebServer/)
+Automated Nginx web server installation and configuration for Debian/Ubuntu systems.
 
 **Features:**
-- Mirror repository configuration
-- System update & upgrade
-- Nginx installation with dependencies
-- Default test site deployment on `127.0.0.1`
-
-[📖 Full Documentation](WebServer/README.md)
+- Repository mirror configuration
+- System updates & prerequisites
+- Nginx installation & activation
+- Default test site on `127.0.0.1`
 
 ---
 
-### 2. **DNS Mapping**
-Local DNS record management tool for mapping custom domains to IP addresses via `/etc/hosts`.
+### 2. [DNS Mapping](./DNSMapping/)
+Local DNS record manipulation tool for mapping custom domains to specific IP addresses.
 
 **Features:**
-- Add custom domain-to-IP mappings
-- Development environment configuration
-- Local testing support
-
-[📖 Full Documentation](DNSMapping/README.md)
+- Modify `/etc/hosts` file
+- Map domains to custom IPs
+- Local development environment setup
 
 ---
 
-### 3. **DVWA Installer**
-Automated installer for **Damn Vulnerable Web Application (DVWA)** with full dependency management.
+### 3. [DVWA Installer](./DVWA/)
+Automated installation script for **Damn Vulnerable Web Application** (DVWA).
 
 **Features:**
-- One-command installation
+- Complete DVWA setup
+- Dependency installation
 - Database configuration
-- Dependency resolution
-
-[📖 Full Documentation](DVWA/README.md)
 
 ---
 
 ## 🚀 Quick Start
-
-Each tool has its own dedicated README with detailed instructions. General usage pattern:
 ```bash
-# Download script
-curl -O https://raw.githubusercontent.com/Anon-Core/AnonSecuritySetup/main/<TOOL>/<script>.sh
+# Clone the repository
+git clone https://github.com/Anon-Core/AnonSecuritySetup.git
+cd AnonSecuritySetup
 
-# Make executable
-sudo chmod +x <script>.sh
-
-# Run
-sudo ./<script>.sh [options]
+# Navigate to desired tool directory
+cd WebServer  # or DNSMapping, DVWA
 
 ---
 
-## ⚙️ System Requirements
+## 📋 Requirements
 
-- **OS:** Debian 10+ or Ubuntu 20.04+
-- **Privileges:** sudo/root access
-- **Shell:** Bash 4.0+
-- **Network:** Active internet connection
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+- **OS:** Debian/Ubuntu Linux
+- **Privileges:** Root/sudo access
+- **Shell:** Bash
 
 ---
 
 ## ⚠️ Disclaimer
 
-These tools are intended for **authorized security testing and educational purposes only**. Users are responsible for compliance with applicable laws and regulations. Unauthorized access to systems is illegal.
+These tools are for **educational purposes** and **authorized testing only**. Use responsibly and only on systems you own or have explicit permission to test.
 
 ---
 
@@ -97,17 +82,12 @@ These tools are intended for **authorized security testing and educational purpo
 
 ---
 
-## 📄 License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
----
-
 <div align="center">
 
-**Built for learning, testing, and security research** 🔒
+**⭐ Star this repo if you find it useful!**
 
 </div>
 
 
 ---
+
