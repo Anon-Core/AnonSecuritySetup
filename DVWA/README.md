@@ -1,2 +1,2 @@
 - git clone https://github.com/digininja/DVWA.git
-- wget curl -O https://raw.githubusercontent.com/Anon-Core/AnonSecuritySetup/main/DVWA/dvwa.sh
+- curl -O https://raw.githubusercontent.com/Anon-Core/AnonSecuritySetup/main/DVWA/dvwa.sh
