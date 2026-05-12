@@ -48,7 +48,6 @@ Automated installation script for **Damn Vulnerable Web Application** (DVWA).
 ---
 
 ## 🚀 Quick Start
-```bash
 # Clone the repository
 git clone https://github.com/Anon-Core/AnonSecuritySetup.git
 cd AnonSecuritySetup
@@ -90,4 +89,5 @@ These tools are for **educational purposes** and **authorized testing only**. Us
 
 
 ---
-> Setup Complate
+
+> Setup Complate 
